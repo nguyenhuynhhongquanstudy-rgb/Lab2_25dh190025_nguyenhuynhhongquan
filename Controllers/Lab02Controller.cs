@@ -13,5 +13,21 @@ namespace Lab2_25dh190025_nguyenhuynhhongquan.Controllers
         {
             return View();
         }
+        public ActionResult VD2()
+        {
+            return View();
+        }
+        public ActionResult VD3()
+        {
+            return View();
+        }
+        public ActionResult VD4()
+        {
+            return View();
+        }
+        public ActionResult VD5()
+        {
+            return View();
+        }
     }
 }

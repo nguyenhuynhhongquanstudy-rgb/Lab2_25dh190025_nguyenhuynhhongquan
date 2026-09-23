@@ -1,0 +1,75 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DÁN TRANG WEBSHHIT-LAYOUT</title>
+    <style type="text/css">
+        body{
+            background-color:antiquewhite;
+            font-family:'Book Antiqua',Calibri,'Courier New';
+
+        }
+        #container{
+            border:3px solid black;/*Khi sài layout xinjk thì méo cần sài border*/
+            width:90%;
+            background-color:cornsilk;
+            margin:auto
+        }
+        #banner{
+            background-color:lightgrey;
+            height:100px;
+
+        }
+        #navigator,  #footer{
+            background-color:lightgrey;
+            border-top:1px solid black;
+            border-bottom:1px solid black;
+            height:50px;
+            padding-top:5px;
+            padding-bottom:5px;
+        }
+        #navigator{
+            border-bottom:1px solid black;
+        }
+        #sidebar{
+
+            /*display:block;*/
+            background-color:grey;
+            width:150px;
+            min-height:400px;
+            float:left;
+
+
+        }
+        #content{
+            /*float:left*/
+            margin-left:150px;
+            min-height:400px;
+            background-color:white;
+
+        }
+        #footer{
+            text-align:center
+
+
+        }
+
+    </style>
+        
+</head>
+<body>
+    <div id="container">
+        <div id="banner">BANNER</div>
+        <div id="navigator">NAVIGATOR</div>
+        <div id="sidebar">SIDEBAR</div>
+        <div id="content">CONTENT</div>
+        <div id="footer">FOOTER</div>
+
+    </div>
+</body>
+</html>

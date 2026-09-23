@@ -1,0 +1,69 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ĐỊNH DẠNG BẢNG</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <style type="text/css">
+        table {
+            border: 3px solid black;
+            border-collapse: collapse;
+            width: 400px;
+            height: 300px;
+        }
+
+        th {
+            color: white;
+            background-color: dodgerblue;
+            border: 1px solid black;
+        }
+
+        td {
+            text-align: center;
+            border: 1px solid black;
+        }
+
+        .tr_le {
+            background-color: aqua;
+        }
+
+        .tr_chan {
+            background-color: darkcyan;
+        }
+    </style>
+</head>
+<body>
+    <table align="center">
+        <tr>
+            <th>header 1</th>
+            <th>header 2</th>
+            <th>header 3</th>
+        </tr>
+        <tr class="tr_le">
+            <td>column 1</td>
+            <td>column 2</td>
+            <td>column 3</td>
+        </tr>
+        <tr class="tr_chan">
+            <td>column 1</td>   
+            <td>column 2</td>
+            <td>column 3</td>
+        </tr>
+        <tr class="tr_le">
+            <td>column 1</td>
+            <td>column 2</td>
+            <td>column 3</td>
+        </tr>
+        <tr class="tr_chan">
+            <td>column 1</td>
+            <td>column 2</td>
+            <td>column 3</td>
+        </tr>
+    </table>
+</body>
+</html>
